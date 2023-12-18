@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSender",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initialValueShouldBe100",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "valueIsSet200",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"initialValueShouldBe100()": {
+					"notice": "Test if initial value is set correctly"
+				},
+				"valueIsSet200()": {
+					"notice": "Test if value is set as expected"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Simple_storage_test.sol": "MyTest"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Simple_storage.sol": {
+			"keccak256": "0x041ca69bc8ce7a97bb9b57a1e83343d88a6e5bdb3ce74a360e7e816dff755b24",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c62e1af8f0bce45b56670909e29d89b12e88067bf4f1f1afec4ecbbe67205355",
+				"dweb:/ipfs/QmWPP7DLLV46zFctVfxCx7XiUg1zcgdr8FoSvEumKEaHd3"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0xab088ffd1cd1033f54c2486f151b5d02281a3b76724c8e6f48479c25a4f7809e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5ddaf9976b1838f7028cbedfaf7f6e1cf8c898e100221176ff1406ee8b599f23",
+				"dweb:/ipfs/QmX2FYLXYyo5Cn55ZX2CfngpscSh4mQhcMVzQdQsh2vqcG"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/Simple_storage_test.sol": {
+			"keccak256": "0xd20fbcce3401a5178f27be3e69ea87e65db4204281599665884283db3d9eaec9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://83ad5d8caa76a3d03fac146e3228a069d4d325848ba5a5fcf701de4c717681e5",
+				"dweb:/ipfs/QmddWw8t7HovBXdmEENpC5ZS8DwcyCpWFmPj9y4vsVW4Tr"
+			]
+		}
+	},
+	"version": 1
+}
